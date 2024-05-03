@@ -1,0 +1,37 @@
+body {
+    font-family: Public sans, sans-serif;
+}
+
+.paintings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paintings .painting {
+    position: relative;
+}
+
+.paintings .painting .info{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color:  #fff;
+}
+
+.paintings .painting .info img {
+    height: 432px;
+    width: 355px;
+}
+
+.paintings .painting .info.title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.paintings .painting .info .artist {
+    font-size: 17px;
+    font-weight: 300;
+}
