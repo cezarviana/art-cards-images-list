@@ -2,6 +2,13 @@ body {
     font-family: Public sans, sans-serif;
 }
 
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .paintings {
     display: flex;
     justify-content: center;
