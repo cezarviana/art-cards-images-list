@@ -21,6 +21,11 @@ main {
     position: relative;
 }
 
+.paintings .painting:hover {
+    transition: 0.5s;
+    transform: scale(1.04);
+}
+
 .paintings .painting .info{
     position: absolute;
     bottom: 40px;
