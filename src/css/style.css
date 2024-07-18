@@ -19,10 +19,12 @@ main {
 
 .paintings .painting {
     position: relative;
+    height: 431px;
+    box-shadow: 10px 15px 20px black;
 }
 
 .paintings .painting:hover {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     transform: scale(1.04);
 }
 
@@ -34,7 +36,8 @@ main {
 }
 
 .paintings .painting .info img {
-    height: 432px;
+    
+    height: 435px;
     width: 355px;
 }
 
