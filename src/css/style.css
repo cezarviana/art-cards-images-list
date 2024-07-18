@@ -20,7 +20,6 @@ main {
 .paintings .painting {
     position: relative;
     height: 431px;
-    box-shadow: 10px 15px 20px black;
 }
 
 .paintings .painting:hover {
@@ -36,7 +35,6 @@ main {
 }
 
 .paintings .painting .info img {
-    
     height: 435px;
     width: 355px;
 }
